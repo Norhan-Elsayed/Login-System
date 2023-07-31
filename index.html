@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css//bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container text-center my-5" id="login">
+        <div class="group m-auto w-75 p-5">
+            <h1 id="title">Smart Login System</h1>
+            <input type="text" placeholder="Enter your e-mail" id="signEmail" class="form-control my-3">
+            <input type="text" placeholder="Enter your password" id="signPassword" class="form-control my-3">
+            <p id="incorrect"></p>
+            <button id="loginBtn" class="btn btn-outline-info w-100 my-3">Login</button>
+            <p class="text-white">Don’t have an account? <a id="signupWord" class="text-white" href="#">Sign Up</a></p>
+        </div>
+    </div>
+    <div id="signIn" class="d-none">
+        <div class="container text-center my-5">
+            <div class="group1 m-auto w-75 p-5">
+                <h1>Smart Login System</h1>
+                <input type="text" placeholder="Enter your name" id="signupName" class="form-control my-3">
+                <input type="email" placeholder="Enter your e-mail" id="signupEmail" class="form-control my-3">
+                <input type="password" placeholder="Enter your password" id="signupPassword" class="form-control my-3">
+                <p class="text-danger" id="exist"></p>
+                <button id="signUpBtn" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+                <p class="text-white">You have an account? <a id="signInWord" class="text-white" href="#">Signin</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>

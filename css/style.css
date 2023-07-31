@@ -1,0 +1,49 @@
+body{
+    background-color: #24353F;
+}
+.navbar{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.navbar .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.user h1{
+    color: #17A2B4;
+}
+.group h1{
+    color: #17A2B4;
+}
+.group{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+    
+}
+input{
+    background-color: transparent !important;
+    color: rgb(255, 255, 255) !important;
+}
+.group p a{
+    text-decoration: none;
+}
+.group p a:hover {
+    text-decoration: underline;
+}
+.group1{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.group1 h1{
+    color: #17A2B4;
+}
+.group1 p a{
+    text-decoration: none;
+}
+.group1 p a:hover {
+    text-decoration: underline;
+}
+.loginSignup p {
+    text-align: center;
+}
